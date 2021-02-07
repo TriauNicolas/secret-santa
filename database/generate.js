@@ -8,7 +8,7 @@ module.exports = () => {
         let randomNumber = Math.floor(Math.random() * (max - min + 1) + min)
         let secondNumber = Math.floor(Math.random() * (max - min + 1) + min)
 
-            while(randomNumber === id || secondNumber === id || secondNumber === randomNumber) {
+            while(randomNumber === (id + 1) || secondNumber === (id + 1) || secondNumber === randomNumber) {
 
                 if(iterationError >= 250) {
                     randomID()
