@@ -1,30 +1,25 @@
-# Boilerplate Technical Test Frontend
+# Secret-santa
 
-Ce repo sert à vous faire gagner du temps pour réaliser un test technique de l'équipe front de chez UNiFAi.
+Exercice fait dans le cadre d'un test technique pour l'entreprise UNiFAi !
 
-Sont installées les dépendances suivantes :
+Dépendances installées :
 - Vue
 - Buefy
 - JSON-Server
-
-Vous êtes libre d'ajouter toute librairie utile à sa réalisation.
-
-## Start JSON Server
-```
-json-server --watch db.json
-```
+- Faker
+- npm-run-all
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Run API with fake data & run project
 ```
-npm run serve
+npm run all
 ```
 
-### Compiles and minifies for production
+### Just generate data on fakeAPI
 ```
-npm run build
+npm run generate
 ```
